@@ -12,7 +12,6 @@ let num7 = 16;
 let boolean1 = true;
 let boolean2 = false;
 
-
 console.log(he);
 console.log(ow);
 console.log(co);
