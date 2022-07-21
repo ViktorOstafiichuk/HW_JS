@@ -57,8 +57,10 @@ document.write(boolean2);
 let firstName = 'Viktor';
 let middleName = 'Yaroslavovych';
 let lastName = 'Ostafiichuk';
+const space = ' ';
 
-let person = lastName + firstName + middleName;
+let person = lastName + space + firstName + space + middleName;
+console.log(person);
 
 let a = 100;
 let b = '100';
