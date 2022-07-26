@@ -72,11 +72,11 @@ console.log(typeof c);
 let namePrompt;
 let nameFather;
 let age;
-namePrompt = window.prompt('write your name');
+namePrompt = prompt('write your name');
 console.log(namePrompt);
 
-nameFather = window.prompt('write your father name');
+nameFather = prompt('write your father name');
 console.log(nameFather);
 
-age = window.prompt('write your age');
+age = +prompt('write your age');
 console.log(age);
