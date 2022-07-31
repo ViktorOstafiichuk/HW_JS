@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dfb613a-5d4f-48ba-bd9d-5a25caba0263" name="Changes" comment="delete window, add +">
-      <change afterPath="$PROJECT_DIR$/lesson_2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2/main.js" afterDir="false" />
+    <list default="true" id="8dfb613a-5d4f-48ba-bd9d-5a25caba0263" name="Changes" comment="adding homework">
+      <change afterPath="$PROJECT_DIR$/lesson_3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CGgRROYzFpBgwnovebv0CpzW2V" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,7 +38,11 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -49,7 +55,11 @@
       <updated>1658434327291</updated>
       <workItem from="1658434330423" duration="2989000" />
       <workItem from="1658853473055" duration="1214000" />
-      <workItem from="1658928453396" duration="2083000" />
+      <workItem from="1658928453396" duration="2586000" />
+      <workItem from="1658943190455" duration="739000" />
+      <workItem from="1659032415895" duration="1540000" />
+      <workItem from="1659247862208" duration="1582000" />
+      <workItem from="1659251975471" duration="3264000" />
     </task>
     <task id="LOCAL-00001" summary="add HW lesson 1">
       <created>1658436556884</created>
@@ -86,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658857904440</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding homework">
+      <created>1658930943107</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658930943108</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +124,7 @@
     <MESSAGE value="add HW lesson 1" />
     <MESSAGE value="add console.log(person);" />
     <MESSAGE value="delete window, add +" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete window, add +" />
+    <MESSAGE value="adding homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding homework" />
   </component>
 </project>
