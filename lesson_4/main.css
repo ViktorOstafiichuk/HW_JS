@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: #524e4e;
+    color: silver;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.product-title {
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+.product-image {
+    width: 350px;
+}
