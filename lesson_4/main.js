@@ -17,7 +17,9 @@
 // for (let user of users) {
 //     document.write(`<div>${user ['name']}</div>`);
 // }
-
+//
+//
+// //------------------------------------------------------------------------------------
 // // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 // for (let i = 0; i < users.length - 1; i++) {
 //     document.write(`<div>${users[i]['age']}</div>`)
@@ -99,14 +101,14 @@
 //     document.write(`<img src="${product['image']}" alt="product['title']" class="product-image">`)
 // }
 //
-// document.write(`</div>`)
+//  document.write(`</div>`)
 //
-// ШАБЛОН
-// <div class="product-card">
-//     <h3 class="product-title">TITLE. Price - PRICE</h3>
-// <img src="IMAGE" alt="" class="product-image">
-// </div>
-// Замість TITLE PRICE IMAGE - підставити відповідні поля з об'єкту
+// // ШАБЛОН
+// // <div class="product-card">
+// //     <h3 class="product-title">TITLE. Price - PRICE</h3>
+// // <img src="IMAGE" alt="" class="product-image">
+// // </div>
+// // Замість TITLE PRICE IMAGE - підставити відповідні поля з об'єкту
 
 // //     є масив
 // let users = [

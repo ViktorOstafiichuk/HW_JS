@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dfb613a-5d4f-48ba-bd9d-5a25caba0263" name="Changes" comment="adding homework lesson 3">
+    <list default="true" id="8dfb613a-5d4f-48ba-bd9d-5a25caba0263" name="Changes" comment="adding homework lesson 4">
       <change afterPath="$PROJECT_DIR$/lesson_4/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson_4/main.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson_4/main.js" afterDir="false" />
@@ -65,7 +65,7 @@
       <workItem from="1659247862208" duration="1582000" />
       <workItem from="1659251975471" duration="3591000" />
       <workItem from="1659374377056" duration="990000" />
-      <workItem from="1659529191526" duration="4032000" />
+      <workItem from="1659529191526" duration="4349000" />
     </task>
     <task id="LOCAL-00001" summary="add HW lesson 1">
       <created>1658436556884</created>
@@ -116,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659256834635</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding homework lesson 4">
+      <created>1659533601106</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659533601106</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +146,7 @@
     <MESSAGE value="delete window, add +" />
     <MESSAGE value="adding homework" />
     <MESSAGE value="adding homework lesson 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding homework lesson 3" />
+    <MESSAGE value="adding homework lesson 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding homework lesson 4" />
   </component>
 </project>
