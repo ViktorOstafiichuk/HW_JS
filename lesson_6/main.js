@@ -33,11 +33,25 @@
 // let arr = [10, 8, -7, 55, 987, -1011, 0, 1050, 0];
 // console.log(arr.map(value => `${value}`));
 
-// - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
-//     let nums = [11,21,3];
-// sortNums(nums,'ascending') // [3,11,21]
-// sortNums(nums,'descending') // [21,11,3]
-
+// // - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
+// //     let nums = [11,21,3];
+// // sortNums(nums,'ascending') // [3,11,21]
+// // sortNums(nums,'descending') // [21,11,3]
+// let nums = [11, 21, 3, 5, 7, 9, 0, 2, 4];
+//
+// const numbers = (arr, direction) => {
+//     switch (direction) {
+//         case 'ascending':
+//             arr.sort((a, b) => a - b);
+//             break;
+//         case 'descending':
+//             arr.sort((a, b) => b - a);
+//             break;
+//     }
+//     return arr;
+// };
+// console.log(numbers(nums, 'ascending'));
+// console.log(numbers(nums, 'descending'));
 
 // // - є масив
 // // let coursesAndDurationArray = [
