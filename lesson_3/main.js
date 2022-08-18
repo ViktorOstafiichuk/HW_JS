@@ -149,3 +149,6 @@
 //     x = 'default';
 //     console.log(x);
 // }
+
+// let x = NaN || 'sting';
+// console.log(x);
