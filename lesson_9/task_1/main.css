@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 20px 20vw;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+h1,h2,p{
+    margin: 0;
+    padding: 0;
+}
+
+.member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div{
+    background-color: #87ad14;
+}
+
+/*img{*/
+/*    margin-bottom: 50px;*/
+/*}*/

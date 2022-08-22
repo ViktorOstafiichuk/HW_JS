@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dfb613a-5d4f-48ba-bd9d-5a25caba0263" name="Changes" comment="adding homework lesson 8">
-      <change afterPath="$PROJECT_DIR$/lesson_7/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7/main.js" afterDir="false" />
+    <list default="true" id="8dfb613a-5d4f-48ba-bd9d-5a25caba0263" name="Changes" comment="add lessom 9">
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_1/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_1/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_2/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_2/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_3/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_3/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_4/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_4/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_5/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/task_5/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_3/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_4/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_4/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_4/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_6/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_8/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -52,6 +60,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Віктор\IdeaProjects\HW_JS\lesson_9\task_1" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +93,15 @@
       <workItem from="1660398425763" duration="2226000" />
       <workItem from="1660401988421" duration="306000" />
       <workItem from="1660747945240" duration="7897000" />
-      <workItem from="1660818917777" duration="5955000" />
+      <workItem from="1660818917777" duration="6012000" />
+      <workItem from="1660930348391" duration="605000" />
+      <workItem from="1660980432951" duration="603000" />
+      <workItem from="1660997365596" duration="6133000" />
+      <workItem from="1661009836987" duration="8340000" />
+      <workItem from="1661029665741" duration="8505000" />
+      <workItem from="1661079914105" duration="3609000" />
+      <workItem from="1661174984262" duration="4218000" />
+      <workItem from="1661179718013" duration="4790000" />
     </task>
     <task id="LOCAL-00001" summary="add HW lesson 1">
       <created>1658436556884</created>
@@ -180,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660754590275</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add">
+      <created>1660827681377</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660827681377</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +235,9 @@
     <MESSAGE value="adding homework lesson 5" />
     <MESSAGE value="adding homework lesson 6" />
     <MESSAGE value="adding homework lesson 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding homework lesson 8" />
+    <MESSAGE value="add" />
+    <MESSAGE value="add lessom 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lessom 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
