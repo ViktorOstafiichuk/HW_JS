@@ -39,9 +39,9 @@ let simpsons = [
 // Проітерувати його, створиши для кожного об'єкту  масиву <div class='member'> та наповнити його данними з об'єкту.
 for (let i = 0; i < simpsons.length; i++) {
     let div = document.createElement('div');
-    div.innerHTML = `<h1>${simpsons[i]['name']} ${simpsons[i]['surname']}</h1> <h2>${simpsons[i]['age']}</h2> <p>${simpsons[i]['info']}</p> <img src="${simpsons[i]['photo']}">`;
+    div.innerHTML = `<h1>${simpsons[i]['name']} ${simpsons[i]['surname']}</h1> <h2>${simpsons[i]['age']}</h2> <p>${simpsons[i]['info']}</p> <img src="${simpsons[i]['photo']}" alt="${simpsons[i]['name']}">`;
     document.body.appendChild(div);
-    let target = document.getElementsByClassName('target')[i];
+
     div.classList.add('member');
 
 }

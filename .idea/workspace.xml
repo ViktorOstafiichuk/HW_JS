@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dfb613a-5d4f-48ba-bd9d-5a25caba0263" name="Changes" comment="add lessom 9">
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_1/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_1/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_2/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_2/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_3/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_3/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_4/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_4/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_5/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/task_5/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_9/task_1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_9/task_1/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +86,7 @@
       <workItem from="1661029665741" duration="8505000" />
       <workItem from="1661079914105" duration="3609000" />
       <workItem from="1661174984262" duration="4218000" />
-      <workItem from="1661179718013" duration="4790000" />
+      <workItem from="1661179718013" duration="5133000" />
     </task>
     <task id="LOCAL-00001" summary="add HW lesson 1">
       <created>1658436556884</created>
@@ -208,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660827681377</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add lessom 9">
+      <created>1661184630902</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1661184630902</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
