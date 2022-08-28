@@ -1,0 +1,29 @@
+/*index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.*/
+body {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 100vh;
+
+    font-size: 24px;
+
+    padding: 15px 30px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+
+    width: calc((100vw / 2) - 60px);
+}
+
+button {
+    width: 30%;
+    height: 40px;
+    margin-top: 7px;
+}

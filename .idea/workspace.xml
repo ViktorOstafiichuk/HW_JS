@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dfb613a-5d4f-48ba-bd9d-5a25caba0263" name="Changes" comment="add lessom 9">
-      <change beforePath="$PROJECT_DIR$/lesson_9/task_1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_9/task_1/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/task1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/task1/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/task1/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/task1/post-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/task1/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/task1/post-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/task1/user-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/task1/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/task1/user-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_9/task_5/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_9/task_5/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -39,6 +49,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -86,7 +97,15 @@
       <workItem from="1661029665741" duration="8505000" />
       <workItem from="1661079914105" duration="3609000" />
       <workItem from="1661174984262" duration="4218000" />
-      <workItem from="1661179718013" duration="5133000" />
+      <workItem from="1661179718013" duration="5580000" />
+      <workItem from="1661190434281" duration="2148000" />
+      <workItem from="1661438919173" duration="868000" />
+      <workItem from="1661534736328" duration="7672000" />
+      <workItem from="1661584979724" duration="13606000" />
+      <workItem from="1661606800776" duration="22000" />
+      <workItem from="1661606948751" duration="9511000" />
+      <workItem from="1661680623480" duration="4869000" />
+      <workItem from="1661713955435" duration="14196000" />
     </task>
     <task id="LOCAL-00001" summary="add HW lesson 1">
       <created>1658436556884</created>
@@ -200,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661184630902</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add lessom 9">
+      <created>1661184971629</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1661184971629</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add lessom 9">
+      <created>1661185181278</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1661185181278</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,39 @@
+/*post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
+/*Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)*/
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div:nth-child(2) {
+    background-color: red;
+    margin: 15px 0;
+}
+
+div:nth-child(2)>ol>li:nth-child(odd) {
+    background-color: yellowgreen;
+}
+
+.comments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+ol {
+    box-sizing: border-box;
+    width: calc(100vw / 4 - 8px);
+    margin: 0;
+}
+
+.comments > ol:nth-child(even) {
+    background-color: green;
+}
+
+.comments > ol:nth-child(odd) {
+    background-color: yellow;
+}
