@@ -2,13 +2,18 @@
 body {
     margin: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    gap: 40px;
 
-    height: 100vh;
+    min-height: 100vh;
 
     font-size: 24px;
 
-    padding: 15px 30px;
+    padding: 40px 0;
+
+    background-color: #2f363e;
 }
 
 div {
@@ -16,14 +21,66 @@ div {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     box-sizing: border-box;
 
     width: calc((100vw / 2) - 60px);
+    height: 250px;
+
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+    10px 10px 70px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 20px rgba(255, 255, 255, 0.25),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+    color: white;
+
+    font-size: 40px;
+
+    border-radius: 30px;
 }
 
 button {
-    width: 30%;
-    height: 40px;
-    margin-top: 7px;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border: none;
+
+    background: #29fd53;
+    color: white;
+    line-height: 60px;
+    cursor: pointer;
+    font-size: 16px;
+
+
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+    inset 2px 2px 3px rgba(255, 255, 255, 0.25),
+    inset 5px 5px 20px rgba(255, 255, 255, 0.25),
+    inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+
+    border-radius: 50%;
+
+    z-index: 2;
+
+    margin-top: 20px;
+
+    transition: transform 0.5s;
+}
+
+button:before {
+    content: '';
+    position: absolute;
+    inset: 10px;
+    background-color: #2f363e;
+    border-radius: 50%;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+    inset 2px 2px 3px rgba(255, 255, 255, 0.25),
+    inset 5px 5px 20px rgba(255, 255, 255, 0.25),
+    inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+
+    z-index: -1;
+
+}
+
+button:hover {
+    transform: scale(1.2);
 }

@@ -27,15 +27,15 @@
 //     {title: 'Frontend', monthDuration: 4}
 // ];
 //
-// // За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
-// //     Завдання робити через цикли.
-// for (let items of coursesAndDurationArray) {
-//     let createDiv = document.createElement('div');
-//     createDiv.classList.add('item');
-//     createDiv.innerHTML = `<h1 class="heading">${items['title']}</h1><p class="description">${items['monthDuration']}</p>`;
-//
-//     document.body.appendChild(createDiv);
-// }
+// За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
+//     Завдання робити через цикли.
+for (let items of coursesAndDurationArray) {
+    let createDiv = document.createElement('div');
+    createDiv.classList.add('item');
+    createDiv.innerHTML = `<h1 class="heading">${items['title']}</h1><p class="description">${items['monthDuration']}</p>`;
+
+    document.body.appendChild(createDiv);
+}
 
 
 // ------------------------------------------------------------------------------
@@ -96,39 +96,42 @@
 //     }
 // }
 
-// *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
-//     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
-let form = document.createElement('form');
-form.innerHTML = `
-<input type="number" name="lines">
-<input type="number" name="columns">
-<input type="text" name="text">
-<button id="but">click me</button>
-`;
+// // *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
+// //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
+// let form = document.createElement('form');
+// form.innerHTML = `
+// <input type="number" name="lines">
+// <input type="number" name="columns">
+// <input type="text" name="text">
+// <button id="but">click me</button>
+// `;
+//
+// document.body.appendChild(form);
+// let findForm = document.getElementsByTagName('form')[0];
+//
+// findForm.onsubmit = function (e) {
+//     e.preventDefault();
+//     let numberOfLines = this.lines.value;
+//     let numberOfColumns = this.columns.value;
+//     let text = this.text.value;
+//
+//
+//     let table = document.createElement('table');
+//     document.body.appendChild(table);
+//
+//     let findTable = document.getElementsByTagName('table')[0];
+//     for (let i = 0; i <= numberOfLines; i++) {
+//         let tr = document.createElement('tr'); //рядок
+//         findTable.appendChild(tr);
+//
+//
+//         let findTr = document.getElementsByTagName('tr')[i];
+//
+//         for (let j = 0; j < numberOfColumns; j++) {
+//             findTr.innerHTML += `<td>${text}</td>`;
+//         }
+//     }
+// }
 
-document.body.appendChild(form);
-let findForm = document.getElementsByTagName('form')[0];
 
-findForm.onsubmit = function (e) {
-    e.preventDefault();
-    let numberOfLines = this.lines.value;
-    let numberOfColumns = this.columns.value;
-    let text = this.text.value;
-
-
-    let table = document.createElement('table');
-    document.body.appendChild(table);
-
-    let findTable = document.getElementsByTagName('table')[0];
-    for (let i = 0; i <= numberOfLines; i++) {
-        let tr = document.createElement('tr'); //рядок
-        findTable.appendChild(tr);
-
-
-        let findTr = document.getElementsByTagName('tr')[i];
-
-        for (let j = 0; j < numberOfColumns; j++) {
-            findTr.innerHTML += `<td>${text}</td>`;
-        }
-    }
-}
+//createTable(elem, col, row)
