@@ -10,6 +10,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(data => {
         let div = document.createElement('div');
+
         document.body.appendChild(div);
         let findDiv = document.getElementsByTagName('div');
         let ol = document.createElement('ol');
@@ -32,7 +33,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
         <li>${keyUserAddress[4]}</li>
         <ul>
         <li>${keyUserAddressGeo[0]}: ${data[item]['address']['geo']['lat']}</li>
-        <li>${keyUserAddressGeo[1]}: ${data[item]['address']['geo']['ing']}</li>
+        <li>${keyUserAddressGeo[1]}: ${data[item]['address']['geo']['lng']}</li>
         </ul>
         </ul>
         <li>${keyUser[5]}: ${data[item]['phone']}</li>
@@ -67,6 +68,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
                     for (const filterKey in filter) {
                         let divClone = div.cloneNode(false);
+                        divClone.classList.add('posts__block');
                         divClone.innerHTML = `<p>${+filterKey + 1}. ${filter[filterKey]['title']}</p> 
                         `;
                         let button = document.createElement('button');
