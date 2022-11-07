@@ -29,7 +29,8 @@
 // let str = 'Ревуть воли як ясла повні';
 // console.log(str.split(' '));
 
-// // - є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map та колбеку перетворити всі об'єкти в масиві на стрінгові.
+// // - є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map та
+// колбеку перетворити всі об'єкти в масиві на стрінгові.
 // let arr = [10, 8, -7, 55, 987, -1011, 0, 1050, 0];
 // console.log(arr.map(value => `${value}`));
 
@@ -53,7 +54,17 @@
 // console.log(numbers(nums, 'ascending'));
 // console.log(numbers(nums, 'descending'));
 
-// - є масив
+// // - є масив
+// // let coursesAndDurationArray = [
+// //     {title: 'JavaScript Complex', monthDuration: 5},
+// //     {title: 'Java Complex', monthDuration: 6},
+// //     {title: 'Python Complex', monthDuration: 6},
+// //     {title: 'QA Complex', monthDuration: 4},
+// //     {title: 'FullStack', monthDuration: 7},
+// //     {title: 'Frontend', monthDuration: 4}
+// // ];
+// // -- відсортувати його за спаданням за monthDuration
+// // -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
 // let coursesAndDurationArray = [
 //     {title: 'JavaScript Complex', monthDuration: 5},
 //     {title: 'Java Complex', monthDuration: 6},
@@ -62,19 +73,9 @@
 //     {title: 'FullStack', monthDuration: 7},
 //     {title: 'Frontend', monthDuration: 4}
 // ];
-// -- відсортувати його за спаданням за monthDuration
-// -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
-let coursesAndDurationArray = [
-    {title: 'JavaScript Complex', monthDuration: 5},
-    {title: 'Java Complex', monthDuration: 6},
-    {title: 'Python Complex', monthDuration: 6},
-    {title: 'QA Complex', monthDuration: 4},
-    {title: 'FullStack', monthDuration: 7},
-    {title: 'Frontend', monthDuration: 4}
-];
-let sort = coursesAndDurationArray.sort((user1, user2) => user1['monthDuration'] - user2['monthDuration']);
-console.log(sort);
-console.log(sort.filter(value => value.monthDuration > 5));
+// let sort = coursesAndDurationArray.sort((user1, user2) => user1['monthDuration'] - user2['monthDuration']);
+// console.log(sort);
+// console.log(sort.filter(value => value.monthDuration > 5));
 
 
 // // описати колоду карт
@@ -90,66 +91,66 @@ console.log(sort.filter(value => value.monthDuration > 5));
 // //         value: '', // '6'-'10', 'ace','jack','queen','king','joker'
 // //     color:'', // 'red','black'
 // // }
-let cards = [
-    {cardSuit: 'clubs', value: 'Ace', color: 'black'},
-    {cardSuit: 'clubs', value: 2, color: 'black'},
-    {cardSuit: 'clubs', value: 3, color: 'black'},
-    {cardSuit: 'clubs', value: 4, color: 'black'},
-    {cardSuit: 'clubs', value: 5, color: 'black'},
-    {cardSuit: 'clubs', value: 6, color: 'black'},
-    {cardSuit: 'clubs', value: 7, color: 'black'},
-    {cardSuit: 'clubs', value: 8, color: 'black'},
-    {cardSuit: 'clubs', value: 9, color: 'black'},
-    {cardSuit: 'clubs', value: 10, color: 'black'},
-    {cardSuit: 'clubs', value: 'Jack', color: 'black'},
-    {cardSuit: 'clubs', value: 'Queen', color: 'black'},
-    {cardSuit: 'clubs', value: 'King', color: 'black'},
-
-    {cardSuit: 'diamonds', value: 'Ace', color: 'red'},
-    {cardSuit: 'diamonds', value: 2, color: 'red'},
-    {cardSuit: 'diamonds', value: 3, color: 'red'},
-    {cardSuit: 'diamonds', value: 4, color: 'red'},
-    {cardSuit: 'diamonds', value: 5, color: 'red'},
-    {cardSuit: 'diamonds', value: 6, color: 'red'},
-    {cardSuit: 'diamonds', value: 7, color: 'red'},
-    {cardSuit: 'diamonds', value: 8, color: 'red'},
-    {cardSuit: 'diamonds', value: 9, color: 'red'},
-    {cardSuit: 'diamonds', value: 10, color: 'red'},
-    {cardSuit: 'diamonds', value: 'Jack', color: 'red'},
-    {cardSuit: 'diamonds', value: 'Queen', color: 'red'},
-    {cardSuit: 'diamonds', value: 'King', color: 'red'},
-
-    {cardSuit: 'hearts', value: 'Ace', color: 'red'},
-    {cardSuit: 'hearts', value: 2, color: 'red'},
-    {cardSuit: 'hearts', value: 3, color: 'red'},
-    {cardSuit: 'hearts', value: 4, color: 'red'},
-    {cardSuit: 'hearts', value: 5, color: 'red'},
-    {cardSuit: 'hearts', value: 6, color: 'red'},
-    {cardSuit: 'hearts', value: 7, color: 'red'},
-    {cardSuit: 'hearts', value: 8, color: 'red'},
-    {cardSuit: 'hearts', value: 9, color: 'red'},
-    {cardSuit: 'hearts', value: 10, color: 'red'},
-    {cardSuit: 'hearts', value: 'Jack', color: 'red'},
-    {cardSuit: 'hearts', value: 'Queen', color: 'red'},
-    {cardSuit: 'hearts', value: 'King', color: 'red'},
-    {value: 'Joker', color: 'red'},
-
-    {cardSuit: 'spades', value: 2, color: 'black'},
-    {cardSuit: 'spades', value: 3, color: 'black'},
-    {cardSuit: 'spades', value: 4, color: 'black'},
-    {cardSuit: 'spades', value: 5, color: 'black'},
-    {cardSuit: 'spades', value: 6, color: 'black'},
-    {cardSuit: 'spades', value: 7, color: 'black'},
-    {cardSuit: 'spades', value: 8, color: 'black'},
-    {cardSuit: 'spades', value: 9, color: 'black'},
-    {cardSuit: 'spades', value: 10, color: 'black'},
-    {cardSuit: 'spades', value: 'Jack', color: 'black'},
-    {cardSuit: 'spades', value: 'Queen', color: 'black'},
-    {cardSuit: 'spades', value: 'King', color: 'black'},
-    {cardSuit: 'spades', value: 'Ace', color: 'black'},
-    {value: 'Joker', color: 'black'},
-
-];
+// let cards = [
+//     {cardSuit: 'clubs', value: 'Ace', color: 'black'},
+//     {cardSuit: 'clubs', value: 2, color: 'black'},
+//     {cardSuit: 'clubs', value: 3, color: 'black'},
+//     {cardSuit: 'clubs', value: 4, color: 'black'},
+//     {cardSuit: 'clubs', value: 5, color: 'black'},
+//     {cardSuit: 'clubs', value: 6, color: 'black'},
+//     {cardSuit: 'clubs', value: 7, color: 'black'},
+//     {cardSuit: 'clubs', value: 8, color: 'black'},
+//     {cardSuit: 'clubs', value: 9, color: 'black'},
+//     {cardSuit: 'clubs', value: 10, color: 'black'},
+//     {cardSuit: 'clubs', value: 'Jack', color: 'black'},
+//     {cardSuit: 'clubs', value: 'Queen', color: 'black'},
+//     {cardSuit: 'clubs', value: 'King', color: 'black'},
+//
+//     {cardSuit: 'diamonds', value: 'Ace', color: 'red'},
+//     {cardSuit: 'diamonds', value: 2, color: 'red'},
+//     {cardSuit: 'diamonds', value: 3, color: 'red'},
+//     {cardSuit: 'diamonds', value: 4, color: 'red'},
+//     {cardSuit: 'diamonds', value: 5, color: 'red'},
+//     {cardSuit: 'diamonds', value: 6, color: 'red'},
+//     {cardSuit: 'diamonds', value: 7, color: 'red'},
+//     {cardSuit: 'diamonds', value: 8, color: 'red'},
+//     {cardSuit: 'diamonds', value: 9, color: 'red'},
+//     {cardSuit: 'diamonds', value: 10, color: 'red'},
+//     {cardSuit: 'diamonds', value: 'Jack', color: 'red'},
+//     {cardSuit: 'diamonds', value: 'Queen', color: 'red'},
+//     {cardSuit: 'diamonds', value: 'King', color: 'red'},
+//
+//     {cardSuit: 'hearts', value: 'Ace', color: 'red'},
+//     {cardSuit: 'hearts', value: 2, color: 'red'},
+//     {cardSuit: 'hearts', value: 3, color: 'red'},
+//     {cardSuit: 'hearts', value: 4, color: 'red'},
+//     {cardSuit: 'hearts', value: 5, color: 'red'},
+//     {cardSuit: 'hearts', value: 6, color: 'red'},
+//     {cardSuit: 'hearts', value: 7, color: 'red'},
+//     {cardSuit: 'hearts', value: 8, color: 'red'},
+//     {cardSuit: 'hearts', value: 9, color: 'red'},
+//     {cardSuit: 'hearts', value: 10, color: 'red'},
+//     {cardSuit: 'hearts', value: 'Jack', color: 'red'},
+//     {cardSuit: 'hearts', value: 'Queen', color: 'red'},
+//     {cardSuit: 'hearts', value: 'King', color: 'red'},
+//     {value: 'Joker', color: 'red'},
+//
+//     {cardSuit: 'spades', value: 2, color: 'black'},
+//     {cardSuit: 'spades', value: 3, color: 'black'},
+//     {cardSuit: 'spades', value: 4, color: 'black'},
+//     {cardSuit: 'spades', value: 5, color: 'black'},
+//     {cardSuit: 'spades', value: 6, color: 'black'},
+//     {cardSuit: 'spades', value: 7, color: 'black'},
+//     {cardSuit: 'spades', value: 8, color: 'black'},
+//     {cardSuit: 'spades', value: 9, color: 'black'},
+//     {cardSuit: 'spades', value: 10, color: 'black'},
+//     {cardSuit: 'spades', value: 'Jack', color: 'black'},
+//     {cardSuit: 'spades', value: 'Queen', color: 'black'},
+//     {cardSuit: 'spades', value: 'King', color: 'black'},
+//     {cardSuit: 'spades', value: 'Ace', color: 'black'},
+//     {value: 'Joker', color: 'black'},
+//
+// ];
 
 
 // Додатково по reduce
@@ -192,5 +193,100 @@ let cards = [
 //     clubs: [],
 //     joker: []
 // });
+//
+// console.log(reduce);
+
+
+let users = [
+    {name: 'vova', age: 21, status: true},
+    {name: 'max', age: 32, status: true},
+    {name: 'dima', age: 45, status: false},
+    {name: 'mukola', age: 47, status: true},
+    {name: 'petia', age: 52, status: false},
+    {name: 'vasia', age: 12, status: true},
+    {name: 'max', age: 32, status: true},
+    {name: 'yra', age: 25, status: false},
+    {name: 'muhmuh', age: 26, status: true},
+    {name: 'anton', age: 11, status: true},
+    {name: 'taras', age: 72, status: false}
+];
+
+let usersCyrillic = [
+    {name: 'вова', age: 21, status: true},
+    {name: 'макс', age: 32, status: true},
+    {name: 'діма', age: 45, status: false},
+    {name: 'микола', age: 47, status: true},
+    {name: 'петя', age: 52, status: false},
+    {name: 'вася', age: 12, status: true},
+    {name: 'макс', age: 32, status: true},
+    {name: 'юра', age: 25, status: false},
+    {name: 'михмих', age: 26, status: true},
+    {name: 'антон', age: 11, status: true},
+    {name: 'тарас', age: 72, status: false}
+];
+// users.forEach(value => {
+//     if (!value.status) {
+//         console.log(value);
+//     }
+// });
+
+// let filter = users.filter(value => !value.status);
+// console.log(filter);
+// let filter = users.filter(value => value.age < 30);
+// console.log(filter);
+
+// users.map(value => console.log(value));
+// users.map(value => console.log(value.name));
+// let map = users.map((value,index) => ({id: index, ...value}));
+// console.log(map);
+
+// // знаходить тільки перше співпадіння і зупиняється
+// let find = users.find((value) => value.name === 'max');
+// console.log(find);
+
+// // щоб знайти всі спвпадіння використовується фільтер
+// let filter = users.filter(value => value.name === 'max');
+// console.log(filter);
+
+// //сортування по числах
+// let sort = users.sort((a, b) => a.age - b.age);
+// console.log(sort);
+
+// // сортування по алфавіту
+// let sort = usersCyrillic.sort((a, b) => {
+//     if (a.name > b.name){
+//         return 1;
+//     }
+//     if (a.name < b.name) {
+//         return -1;
+//     }
+//     if (a.name === b.name) {
+//         return 0;
+//     }
+// });
+//
+// console.log(sort);
+
+// reduce фасування, редуктор в обєкт
+// let reduce = users.reduce((accumulator, user) => {
+//     if (user.status) {
+//         accumulator.statusTrue.push(user);
+//     } else {
+//         accumulator.statusFalse.push(user);
+//     }
+//     return accumulator;
+// }, {statusTrue: [], statusFalse: []});
+//
+// console.log(reduce);
+
+// // reduce фасування, редуктор в масив
+// let reduce = users.reduce((accumulator, user) => {
+//     if (user.status) {
+//         accumulator[0].push(user);
+//     } else {
+//         accumulator[1].push(user);
+//     }
+//     return accumulator;
+// }, [[], []]);
 //
 // console.log(reduce);

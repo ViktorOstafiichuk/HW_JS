@@ -120,3 +120,117 @@
 // console.log(consecutive([1]));
 // console.log(consecutive([5, 9, 7, 6, 3, 4]));
 // console.log(consecutive([9, 8, 2, 7, 52, 6, 5, 47, 4]));
+
+// let user = {
+//     user1: {
+//         name: 'vasul',
+//         age: 23
+//     },
+//     user2: {
+//         name: 'dima',
+//         age: 24
+//     }
+//
+//
+// }
+//
+// let kokos = {...user, user1:{...user.user1, status: true}};
+//
+// console.log(kokos);
+
+// // копія
+// let user = {
+//     name: 'vasul',
+//     age: 23,
+//     wife: {name: 'anna'},
+//     greeting(){
+//         console.log('hi');
+//     }
+// };
+//
+// // let kokos = {
+// //     ...user,
+// //     status: true,
+// //     name: 'muhmuh',
+// // };
+//
+// // console.log(kokos);
+// // console.log(kokos === user);
+// // console.log(user);
+// // console.log(kokos.wife === user.wife);
+// // console.log(kokos.age === user.age);
+// // console.log(kokos.name === user.name);
+//
+// // // // копіювання обєкта з створенням нового з різним посиланням
+// // // let userJson = JSON.stringify(user);
+// // // console.log(userJson);
+// // // let userParse = JSON.parse(userJson);
+// // // console.log(userParse);
+// // // // скорочений варіант
+// // let userParse = JSON.parse(JSON.stringify(user));
+// // console.log(userParse);
+// //
+// // console.log(userParse === user);
+// // console.log(userParse.wife === user.wife);
+// // console.log(userParse.wife.name === user.wife.name);
+//
+// //
+//
+// let kokos = Object.assign({}, user);
+// console.log(kokos)
+//
+// console.log(user.wife === kokos.wife);
+
+
+// let user = {
+//     name: 'vas',
+//     age: 12,
+//     foo(){
+//         console.log('foobar');
+//     }
+// }
+//
+// user.foo();
+// console.log(user.name);
+// user.age = -1000;
+// console.log(user.age);
+
+
+function userBuilder(name, age){
+    let user = {name, age};
+    return {
+        getName(){
+            return user.name;
+        },
+        getAge(){
+            return user.age;
+        },
+        setAge(age){
+            if (age > 0) {
+                user.age = age;
+            }
+        },
+        setName(name){
+            if (typeof name === 'string' && name){
+                user.name = name;
+            }
+        },
+        info(){
+            return {...user}
+        }
+    };
+}
+
+let res = userBuilder('vas', 17);
+console.log(res.getAge());
+console.log(res.getName());
+res.setAge(20);
+console.log(res.getAge());
+res.setName('zxc');
+console.log(res.getName());
+let data = res.info();
+console.log(data);
+
+document.write(`${data.name} - `);
+document.write(data.age);
+

@@ -14,15 +14,15 @@
 // newUser.push(new User(`${i}`, 'vasyl', 'vasylenko', 'vasyl@gmail.com', '+380645404099'));
 // }
 // console.log(newUser);
-//
-//
-//
-// //
+
+
+
+
 // // - Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
 // newUserFilter = newUser.filter(value => value.id % 2 === 0);
 // console.log(newUserFilter);
-//
-// //
+
+
 // // - Взяти масив з  User[] з попереднього завдання, та відсортувати його по id. по зростанню (sort)
 // newUserSort = newUser.sort((a, b) => a.id - b.id);
 // console.log(newUserSort);

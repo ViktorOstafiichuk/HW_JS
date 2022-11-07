@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dfb613a-5d4f-48ba-bd9d-5a25caba0263" name="Changes" comment="added styles">
+    <list default="true" id="8dfb613a-5d4f-48ba-bd9d-5a25caba0263" name="Changes" comment="add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_project/task1/post-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/mini_project/task1/post-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_5/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_5/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_6/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_7/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_7/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_8/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_9/task_5/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_9/task_5/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +112,14 @@
       <workItem from="1661891416155" duration="1876000" />
       <workItem from="1661941809811" duration="5001000" />
       <workItem from="1661961312294" duration="2367000" />
-      <workItem from="1661978075148" duration="15121000" />
+      <workItem from="1661978075148" duration="15389000" />
+      <workItem from="1662015814681" duration="627000" />
+      <workItem from="1662210259166" duration="208000" />
+      <workItem from="1662210506157" duration="3819000" />
+      <workItem from="1662222309087" duration="3230000" />
+      <workItem from="1662455737223" duration="2908000" />
+      <workItem from="1662470628431" duration="34000" />
+      <workItem from="1667811537888" duration="19262000" />
     </task>
     <task id="LOCAL-00001" summary="add HW lesson 1">
       <created>1658436556884</created>
@@ -257,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661994067963</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added styles">
+      <created>1661994894275</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1661994894275</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,22 +302,11 @@
     <MESSAGE value="adding homework lesson 5" />
     <MESSAGE value="adding homework lesson 6" />
     <MESSAGE value="adding homework lesson 8" />
-    <MESSAGE value="add" />
     <MESSAGE value="add lessom 9" />
     <MESSAGE value="add mini project" />
     <MESSAGE value="added styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="added styles" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lesson_5/main.js</url>
-          <line>77</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -3,7 +3,7 @@
 //     document.write(`${a * b}`);
 // }
 //
-// square(5, 5);
+// square(1, 1);
 // square(2, 7);
 
 // // - створити функцію яка обчислює та повертає площу кола з радіусом r
@@ -137,6 +137,62 @@
 // }
 // document.write(sumNumbers([1, 2, 20]));
 
+// //rest argument
+// function fooBar (a,b,c,...fff) {
+//     console.log(fff);
+//     for (const fffElement of fff) {
+//         document.write(fffElement);
+//     }
+// };
+//
+// fooBar(1, 2, 3, 0,9,8);
 
+// // this
+// let asd = {
+//     name: 'vasya',
+//     greeting: function () {
+//         document.write(`hi ${this.name}`);
+//     },
+//     greeting2: () => {
+//         document.write(`hi ${asd.name}`);
+//     }
+// }
+//
+// asd.greeting();
+// asd.greeting2();
 
+// // зміна масиву по індексу
+// const arr = [1, 2, 3, 4,5,6, 7, 8];
+//
+// const swap = (arr, index) => {
+//     let temp = arr[index];
+//     arr[index] = arr[index + 1];
+//     arr[index + 1] = temp;
+//
+//     return arr;
+// }
+//
+// console.log(swap(arr, 4));
 
+// // знайти найменше значення масиву
+// let arr = [-10, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//
+// let minSum = (array) => {
+//     let minNum = array[0];
+//
+//     for (const arrayElement of array) {
+//         if (minNum > arrayElement) {
+//             minNum = arrayElement;
+//         }
+//     }
+//
+//     // for (let i = 0; i < array.length; i++) {
+//     //     if (minNum > array[i+1]) {
+//     //         minNum = array[i + 1];
+//     //     }
+//     // }
+//
+//     return minNum;
+// }
+//
+// console.log(minSum(arr));
